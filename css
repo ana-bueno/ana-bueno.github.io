@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%
+}  
+
+/* primeira parte -------- */
+
+  .container1 {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 25% 20% 40% 20%;
+    background-color: #ff5555ff;
+    
+}
+
+.d1{
+    background:#ff5555ff;
+    font-size:100px;
+    color:#FFFFFF;
+    font-family: "Century Gothic";
+    padding-left: 50px;
+    margin: 0;
+    padding-top: 50px;
+}
+.welcome {
+  font-size:48px;
+}
+.oppening {
+  font-size:32px;
+  padding-top: 40px;
+  line-height: 2;
+}
+
+.oppening > a {
+  color: #FFFFFF;
+  text-decoration: none;
+  word-spacing: 10px;
+    padding: 7px;
+}
+
+.oppening > a:hover{
+  color: #ff5555ff;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  font-weight: 800;
+}
+
+/* segunda parte -----SOBRE --- */
+
+  .container2 {
+    background:#FFFFFF;
+    font-family: "Century Gothic";
+    color:#ff5555ff;
+    padding-left: 50px;
+    padding-top: 2rem;
+    margin: 0;
+    height: 100%;
+}
+
+.d2 {
+    background:#FFFFFF;
+    font-size:50px;
+    font-family: "Century Gothic";
+    color:#ff5555ff;
+    padding-left: 50px;
+    padding-top: 2rem;
+    margin: 0;
+}
+
+
+.description {
+  font-family: "Century Gothic";
+  color:#ff5555ff;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  padding-top: -50rem;
+  font-size:20px;
+  text-align: left;
+  margin-right: 50%;
+  position: absolute;
+}
+
+img {
+  padding-left: 1000px; 
+  position: absolute;
+  height: auto;
+   width: 200px;
+}
+
+/* terceira parte -----PROJETOS --- */
+
+.container3 {
+    background:#ff5555ff;
+    font-family: "Century Gothic";
+    color:#FFFFFF;
+    padding-left: 50px;
+    padding-top: 2rem;
+    margin: 0;
+    height: 100%;
+}
+
+  .d3{
+    background:#ff5555ff;
+    font-size:50px;
+    font-family: "Century Gothic";
+    color:#FFFFFF;
+}
+
+
+
+/* quarta parte -----CONTATO --- */
+.container4 {
+    background:#FFFFFF;
+    font-family: "Century Gothic";
+    color:#ff5555ff;
+    padding-left: 50px;
+    padding-top: 2rem;
+    margin: 0;
+    height: 100%;
+} 
+
+.d4{
+    background: #FFFFFF;
+    font-size:50px;
+    font-family: "Century Gothic";
+    color:#ff5555ff;
+}
